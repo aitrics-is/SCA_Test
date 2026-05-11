@@ -1,0 +1,22 @@
+### Java & Gradle ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/resources/*.properties
+!**/src/test/resources/*.properties
+
+### IDE (IntelliJ, VSCode) ###
+.idea/
+*.iml
+.vscode/
+bin/
+
+### OS & Temp ###
+.DS_Store
+Thumbs.db
+
+### Secrets (가장 중요!) ###
+.env
+*.key
+*.pem
+.env
